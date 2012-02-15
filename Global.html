@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Site Home</title>
+<script type="text/javascript">
+
+var useShortcut = safari.extension.settings.useShortcut;
+
+function canGoSiteHome(tab)
+{
+	var currentURL = tab.url;
+	if(currentURL && /^(.*?\/\/[^\/]+\/.+)/.test(currentURL))
+		return true;
+	return false;
+}
+
+function goSiteHome(tab)
+{
+	var currentURL = tab.url;
+	if (currentURL)
+	{
+		var matches = currentURL.match(/^(.*?\/\/[^\/]+)/);
+		if(matches)
+			tab.url = matches[1];
+	}
+}
+
+function validateToolbarItems(window)
+{
+	var items = safari.extension.toolbarItems;
+	for(i = 0; i < items.length; i ++)
+		if(items[i].browserWindow === window)
+		{
+			items[i].validate();
+			break;
+		}	
+}
+
+function performCommand(event)
+{
+	if (event.command === "siteHome")
+	{
+		goSiteHome(event.target.browserWindow.activeTab);
+	}
+}
+
+function validateCommand(event)
+{
+	if (event.command === "siteHome")
+	{
+		var isWindows = false;
+		if(navigator.userAgent.indexOf("Win") != -1)
+			isWindows = true;
+
+		var toolTip = "Go to the site's main page";
+		const activeTab = event.target.browserWindow.activeTab;
+		var canGo = canGoSiteHome(activeTab);
+		
+		if(canGo)
+			if(isWindows)
+				toolTip = event.target.browserWindow.activeTab.url.match(/^(.*?\/\/[^\/]+)/)[1];
+			else
+				toolTip += "\n" + event.target.browserWindow.activeTab.url.match(/^(.*?\/\/[^\/]+)/)[1];
+		
+		event.target.disabled = !canGo;
+		event.target.toolTip = toolTip;
+	}
+}
+
+function respondToMessage(event)
+{
+	if(event.name === "siteHomeShortcut" && useShortcut)
+	{
+		var tab = event.target;
+		if(canGoSiteHome(tab)) goSiteHome(tab);
+	}
+	else if(event.name === "onload")
+	{
+		validateToolbarItems(event.target.browserWindow);
+	}
+}
+
+function navigateHandler(event)
+{
+	validateToolbarItems(event.target.browserWindow);
+}
+
+function activateHandler(event)
+{
+	validateToolbarItems(event.target.browserWindow);
+}
+
+function settingsChanged(event)
+{
+	if(event.key === "useShortcut")
+		useShortcut = event.newValue;
+}
+
+safari.extension.settings.addEventListener("change", settingsChanged, false);
+safari.application.addEventListener("command", performCommand, false);
+safari.application.addEventListener("validate", validateCommand, false);
+safari.application.addEventListener("message", respondToMessage, false);
+safari.application.addEventListener("navigate", navigateHandler, true);
+safari.application.addEventListener("activate", activateHandler, true);
+
+</script>
+</head>
+<body> </body>
+</html>
