@@ -12,7 +12,7 @@
     windowEvents  = ['create', 'close', 'focus'],
     processEvents = ['connect', 'disconnect'];
 
-    // TODO: Handle keyboard shortcut message
+    opera.extension.addEventListener('message', keyboardShortcutResponse, false);
     for (var event in processEvents) {
       opera.extension.addEventListener(processEvents[event], updateButtonState, false);
     }
@@ -22,7 +22,6 @@
     for (var event in windowEvents) {
       opera.extension.windows.addEventListener(windowEvents[event], updateButtonState, false);
     }
-    opera.extension.windows.addEventListener('message', keyboardShortcutResponse, false);
   }
 
   function createToolbarButton()
