@@ -4,8 +4,8 @@
   <description xml:lang="en">Click the Site Home toolbar button and you will be redirected to the website’s main (aka home) page.</description>
   <license href="http://www.opensource.org/licenses/mit-license.php" xml:lang="en">Licensed under the MIT license. Attribution encouraged.</license>
   <author href="http://web.daniel.priv.no/">Daniel Aleksandersen</author>
-  <icon src="icon-64.png" height="64" width="64" />
-  <icon src="icon-48.png" height="48" width="48" />
-  <icon src="icon-32.png" height="32" width="32" />
+  <icon src="Icon-64.png" height="64" width="64" />
+  <icon src="Icon-48.png" height="48" width="48" />
+  <icon src="Icon-32.png" height="32" width="32" />
   <icon src="ToolbarIcon.png" height="18" width="18" />
 </widget>
