@@ -43,7 +43,7 @@
       if (opera.extension.tabs.getFocused().url && opera.extension.tabs.getFocused().url != findSiteHomeURL(opera.extension.tabs.getFocused().url))
       {
         toolbarButton.disabled = false;
-        toolbarButton.title = 'Go Home to ' + opera.extension.tabs.getFocused().url;
+        toolbarButton.title = 'Site Home (Ctrl+H)';
       }
       else
       {
