@@ -10,7 +10,7 @@
   {
     var tabEvents = ['close', 'create', 'focus', 'blur'],
     windowEvents  = ['create', 'close', 'focus'],
-    processEvents = ['connect', 'disconnect', 'message'];
+    processEvents = ['connect', 'disconnect'];
 
     // TODO: Handle keyboard shortcut message
     for (var event in processEvents) {
@@ -22,6 +22,7 @@
     for (var event in windowEvents) {
       opera.extension.windows.addEventListener(windowEvents[event], updateButtonState, false);
     }
+    opera.extension.windows.addEventListener('message', keyboardShortcutResponse, false);
   }
 
   function createToolbarButton()
@@ -73,6 +74,20 @@
     if (tab && tab.url)
     {
       tab.postMessage(findSiteHomeURL(tab.url));
+    }
+  }
+
+  function keyboardShortcutResponse(event)
+  {
+   if (event.data == 'keyboardshortcut')
+   {
+     if (opera.extension.tabs.getFocused())
+     {
+       if (opera.extension.tabs.getFocused().url && opera.extension.tabs.getFocused().url != findSiteHomeURL(opera.extension.tabs.getFocused().url))
+       {
+         buttonClickHome();
+       }
+      }
     }
   }
 }());
