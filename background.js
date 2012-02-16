@@ -38,10 +38,8 @@
 
   function updateButtonState()
   {
-    opera.postError('update button!');
     if (opera.extension.tabs.getFocused())
     {
-      opera.postError('its a tab, alright');
       if (opera.extension.tabs.getFocused().url && opera.extension.tabs.getFocused().url != findSiteHomeURL(opera.extension.tabs.getFocused().url))
       {
         toolbarButton.disabled = false;
