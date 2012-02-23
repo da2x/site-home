@@ -26,9 +26,10 @@
 
   function createToolbarButton()
   {
+    var toolbarIcon = ((~window.navigator.platform.indexOf('Mac')) ? 'ToolbarIcon.png' : 'ToolbarIcon-Win.png');
     toolbarButtonProperties = {
       disabled: true,
-      icon: 'ToolbarIcon.png',
+      icon: toolbarIcon,
       onclick: buttonClickHome,
       title: 'Site Home'
     },
