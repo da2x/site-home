@@ -1,9 +1,9 @@
 all: dist
 
-extension = config.xml index.html \
-            background.js includes/*.js \
-            Icon-*.png ToolbarIcon.png \
-            LICENSE
+extension = config.xml site-home.html \
+            scripts/*.js includes/*.js \
+            icon-*.png ToolbarIcon.png \
+            COPYING
 
 sysexcludes = '.DS_Store' '__MACOSX' \
               'Thumbs.db' 'desktop.ini'

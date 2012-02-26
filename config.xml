@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/zcode/site-home" version="1.0" xml:lang="en" defaultlocale="en">
+  <content src="site-home.html" type="text/html" />
   <name short="Site Home">Site Home</name>
   <description xml:lang="en">Click the Site Home toolbar button and you will be redirected to the website’s main (aka home) page.</description>
   <license href="http://www.opensource.org/licenses/mit-license.php" xml:lang="en">Licensed under the MIT license. Attribution encouraged.</license>
