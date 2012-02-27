@@ -3,7 +3,7 @@
   <content src="site-home.html" type="text/html" />
   <name short="Site Home">Site Home</name>
   <description xml:lang="en">Click the Site Home toolbar button and you will be redirected to the website’s main (aka home) page.</description>
-  <license href="COPYING" type="text/plain" xml:lang="en">Licensed under the MIT license.</license>
+  <license href="COPYING" xml:lang="en">Licensed under the MIT license.</license>
   <author href="http://web.daniel.priv.no/">Daniel Aleksandersen</author>
   <icon src="icon-64.png" height="64" width="64" />
   <icon src="ToolbarIcon.png" height="18" width="18" />
