@@ -73,7 +73,8 @@
     var tab = opera.extension.tabs.getFocused();
     if (tab && tab.url)
     {
-      tab.postMessage(findSiteHomeURL(tab.url));
+      var taburl = findSiteHomeURL(tab.url);
+      opera.extension.tabs.getFocused().update( { url: taburl } );
     }
   }
 
