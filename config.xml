@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/zcode/site-home" version="2.0" defaultlocale="en" xml:lang="en">
   <content src="site-home.html" type="text/html" />
+  <name short="Site Home" xml:lang="de">Startseite</name>
   <name short="Site Home" xml:lang="en">Site Home</name>
   <name short="Pradinis puslapis" xml:lang="lt">Pradinis puslapis</name>
   <name short="Startside" xml:lang="nb">Startside</name>
+  <description xml:lang="de">Klick auf den Startseite Toolbar-Button oder drücke Strg-H und du wirst auf die Startseite des aktuellen Internetauftritts weitergeleitet.</description>
   <description xml:lang="en">Click the Site Home toolbar button or press Control–H and you will be redirected to any website’s main (aka home) page.</description>
   <description xml:lang="lt">Paspauskite Svetainės Namų Puslapio mygtuką arba paspauskite Control–H ir jus būsite nukreiptas į bet kokios svetainės pagrindinį (t.y namų) puslapį.</description>
   <description xml:lang="nb">Klikk på Startside knappen i verktøylinjen eller trykk Kontroll–H og du blir omdirigert til en hver sides hoved- (eller start-) side.</description>
