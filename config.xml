@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/zcode/site-home" version="2.0" defaultlocale="en" xml:lang="en">
+<widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/zcode/site-home" version="2.10" defaultlocale="en" xml:lang="en">
   <content src="site-home.html" type="text/html" />
   <name short="Startseite" xml:lang="de">Startseite</name>
   <name short="Site Home" xml:lang="en">Site Home</name>
