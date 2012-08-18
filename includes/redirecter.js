@@ -1,10 +1,15 @@
 /*globals opera:true*/
 (function () {
   'use strict';
-  document.addEventListener('keypress', function (keys) {
-    if ((keys.keyCode === 104 && keys.ctrlKey) || (keys.keyCode === 8 && keys.metaKey)) { // contrl–h
+  document.addEventListener('keydown', function (event) {
+    var ctrlKey = event.ctrlKey;
+    // Old versions of Opera on Mac swapped the Control and Meta keys
+    if (((window.navigator.platform).indexOf('Mac') !== -1) && (window.opera.version() < 12.50)) {
+      ctrlKey = event.metaKey;
+    }
+    if (event.keyCode === 72 && ctrlKey) { // Control–H
       opera.extension.postMessage('keyboardshortcut');
-      keys.preventDefault();
+      event.preventDefault();
     }
   }, false);
 }());
