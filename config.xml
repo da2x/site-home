@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/zcode/site-home" version="2.12" defaultlocale="en" xml:lang="en">
+<widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/zcode/site-home" version="2.13" defaultlocale="en" xml:lang="en">
   <content src="site-home.html" type="text/html" />
   <name short="Startseite" xml:lang="de">Startseite</name>
   <name short="Site Home" xml:lang="en">Site Home</name>
@@ -13,4 +13,5 @@
   <author href="http://web.daniel.priv.no/">Daniel Aleksandersen</author>
   <icon src="icon-64.png" height="64" width="64" />
   <icon src="ToolbarIcon.png" height="18" width="18" />
+  <icon src="ToolbarIcon@2x.png" height="36" width="36" />
 </widget>
