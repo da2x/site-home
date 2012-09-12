@@ -2,7 +2,7 @@ all: dist
 
 extension = config.xml site-home.html \
             scripts/*.js includes/*.js \
-            icon-*.png ToolbarIcon.png ToolbarIcon-Win.png \
+            icon-*.png ToolbarIcon.png ToolbarIcon@2x.png ToolbarIcon-Win.png \
             COPYING
 
 sysexcludes = '.DS_Store' '__MACOSX' \
