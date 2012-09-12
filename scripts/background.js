@@ -27,7 +27,7 @@
   function createToolbarButton()
   {
     var toolbarIcon;
-    if (~window.navigator.platform.indexOf('Mac') {
+    if (~window.navigator.platform.indexOf('Mac')) {
       if (window.devicePixelRatio >= 2) {
         toolbarIcon = 'ToolbarIcon@2x.png';
       } else {
