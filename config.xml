@@ -9,7 +9,7 @@
   <description xml:lang="en">Click the Site Home toolbar button or press Control–H and you will be redirected to any website’s main (aka home) page.</description>
   <description xml:lang="lt">Paspauskite Svetainės Namų Puslapio mygtuką arba paspauskite Control–H ir jus būsite nukreiptas į bet kokios svetainės pagrindinį (t.y namų) puslapį.</description>
   <description xml:lang="nb">Klikk på Startside knappen i verktøylinjen eller trykk Kontroll–H og du blir omdirigert til en hver sides hoved- (eller start-) side.</description>
-  <license href="COPYING" xml:lang="en">Licensed under the MIT license.</license>
+  <license href="https://raw.github.com/zcode/site-home/master/COPYING" xml:lang="en">Licensed under the MIT license.</license>
   <author href="http://web.daniel.priv.no/">Daniel Aleksandersen</author>
   <icon src="icon-64@2x.png" height="128" width="128" />
   <icon src="icon-64.png" height="64" width="64" />
