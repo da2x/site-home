@@ -28,11 +28,7 @@
   {
     var toolbarIcon;
     if (~window.navigator.platform.indexOf('Mac')) {
-      if (window.devicePixelRatio >= 2) {
-        toolbarIcon = 'ToolbarIcon@2x.png';
-      } else {
-        toolbarIcon = 'ToolbarIcon.png';
-      }
+      toolbarIcon = 'ToolbarIcon.png';
     } else {
       toolbarIcon = 'ToolbarIcon-Win.png';
    }
