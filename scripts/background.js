@@ -31,7 +31,7 @@
       toolbarIcon = 'ToolbarIcon.png';
     } else {
       toolbarIcon = 'ToolbarIcon-Win.png';
-   }
+    }
     toolbarButtonProperties = {
       disabled: true,
       icon: toolbarIcon,
