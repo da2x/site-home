@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="icon-source.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5276">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5278" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5280" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5254"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5256" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5214"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5216" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5218" />
+    </linearGradient>
+    <color-profile
+       name="sRGB"
+       xlink:href="/usr/share/color/icc/colord/sRGB.icc"
+       id="color-profile2985" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5254"
+       id="linearGradient5258"
+       x1="19.095403"
+       y1="789.39054"
+       x2="487.68592"
+       y2="789.39054"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5276"
+       id="radialGradient5282"
+       cx="254.12034"
+       cy="792.92609"
+       fx="254.12034"
+       fy="792.92609"
+       r="201.67976"
+       gradientTransform="matrix(1,0,0,0.37562751,0,495.08123)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="72.934721"
+     inkscape:cy="248.7655"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="512px"
+     inkscape:window-width="1861"
+     inkscape:window-height="1056"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Site Home project icon</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Daniel Aleksandersen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="../COPYING" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Daniel Aleksandersen</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2013-06</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36217)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#4d4d4d;fill-rule:evenodd;stroke:#000000;stroke-width:5.01000000999999973;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.39051095000000002;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
+       id="path2995"
+       sodipodi:cx="269.28571"
+       sodipodi:cy="267.71429"
+       sodipodi:rx="250"
+       sodipodi:ry="250"
+       d="m 519.28571,267.71429 c 0,138.07119 -111.92882,250 -250,250 -138.07119,0 -250.000004,-111.92881 -250.000004,-250 0,-138.07118 111.928814,-249.999996 250.000004,-249.999996 138.07118,0 250,111.928816 250,249.999996 z"
+       transform="matrix(0.99800399,0,0,0.99800399,-12.748209,529.18224)"
+       inkscape:export-filename="/home/d/ownCloud/nex/site-home/img/icon19.png"
+       inkscape:export-xdpi="3.392911"
+       inkscape:export-ydpi="3.392911" />
+    <text
+       xml:space="preserve"
+       style="font-size:285.22494507000004660px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:0.94117647000000004;stroke:url(#radialGradient5282);stroke-width:5;stroke-miterlimit:4;stroke-opacity:0.78431373000000004;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="253.34662"
+       y="1053.4771"
+       id="text2999"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="3.4200001"
+       inkscape:export-ydpi="3.4200001"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
+         x="253.34662"
+         y="1053.4771"
+         style="font-size:792.29156493999983013px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:0.94117647000000004;stroke:url(#radialGradient5282);stroke-width:5;stroke-miterlimit:4;stroke-opacity:0.78431373000000004;stroke-dasharray:none;font-family:Liberation Serif;-inkscape-font-specification:Liberation Serif Bold">~</tspan></text>
+  </g>
+</svg>
