@@ -1,2 +1,4 @@
-site-home.oex
 .DS_Store
+*.pem
+*.nex
+*.crx
