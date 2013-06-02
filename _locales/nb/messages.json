@@ -1,0 +1,10 @@
+{
+  "extTitle": {
+    "message": "Startside",
+    "description": "The localized extension name."
+  },
+  "extDescription": {
+    "message": "Klikk på Startside knappen i verktøylinjen og du blir omdirigert til en hver sides startside.",
+    "description": "The localized extension description."
+  }
+}

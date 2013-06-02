@@ -1,0 +1,10 @@
+{
+  "extTitle": {
+    "message": "Site Home",
+    "description": "The localized extension name."
+  },
+  "extDescription": {
+    "message": "Click the Site Home toolbar button and you will be redirected to any website’s home page.",
+    "description": "The localized extension description."
+  }
+}

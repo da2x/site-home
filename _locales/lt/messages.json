@@ -1,0 +1,10 @@
+{
+  "extTitle": {
+    "message": "Pradinis puslapis",
+    "description": "The localized extension name."
+  },
+  "extDescription": {
+    "message": "Paspauskite Svetainės Namų Puslapio mygtuką ir jus būsite nukreiptas į bet kokios svetainės namų puslapį.",
+    "description": "The localized extension description."
+  }
+}

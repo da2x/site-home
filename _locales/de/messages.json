@@ -1,0 +1,10 @@
+{
+  "extTitle": {
+    "message": "Startseite",
+    "description": "The localized extension name."
+  },
+  "extDescription": {
+    "message": "Klick auf den Startseite Toolbar-Button und du wirst auf die Startseite des aktuellen Internetauftritts weitergeleitet.",
+    "description": "The localized extension description."
+  }
+}
