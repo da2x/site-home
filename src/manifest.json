@@ -15,7 +15,8 @@
   "offline_enabled": false,
   "homepage_url": "http://aeyoun.priv.no/p/site-home/extension",
   "background": {
-    "scripts": [ "background.js" ]
+    "scripts": [ "background.js" ],
+    "persistent": false
   },
   "browser_action": {
     "default_title": "__MSG_extDescription__",
