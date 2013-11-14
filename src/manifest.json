@@ -13,7 +13,7 @@
   "permissions": [ "http://*/*", "https://*/*" ],
   "incognito": "split",
   "offline_enabled": false,
-  "homepage_url": "http://aeyoun.priv.no/p/site-home/extension",
+  "homepage_url": "https://www.aeyoun.priv.no/p/site-home/extension.html",
   "background": {
     "scripts": [ "background.js" ],
     "persistent": false
