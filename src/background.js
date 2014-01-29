@@ -3,7 +3,7 @@ chrome.browserAction.onClicked.addListener( function( activeTab ) {
     protocol  = activeUrl[0],
     hostname  = activeUrl[2],
     homeAddr  = protocol + '//' + hostname,
-    isNotHome = activeUrl[3];
-    if ( !isNotHome )
+    canGoHome = activeUrl[3];
+    if ( canGoHome )
       chrome.tabs.update( { url: homeAddr } );
 })
